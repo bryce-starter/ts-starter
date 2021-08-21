@@ -31,7 +31,7 @@ jobs:
         run: npm i -g pnpm
 
       - name: Install
-        run: pnpm ci
+        run: pnpm install
 
       # - name: Lint
       #   run: nr lint --if-present
