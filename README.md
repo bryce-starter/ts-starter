@@ -2,13 +2,11 @@
 
 [![NPM version](https://img.shields.io/npm/v/[name]?color=a1b858&label=)](https://www.npmjs.com/package/[name])
 
-## Sponsors
+## Get Started
 
-<p align="center">
-  <a href="https://cdn.jsdelivr.net/gh/guygubaby/static/sponsors.svg">
-    <img src='https://cdn.jsdelivr.net/gh/guygubaby/static/sponsors.svg'/>
-  </a>
-</p>
+```bash
+npx degit guygubaby/ts-starter [local-folder]
+```
 
 ## License
 
