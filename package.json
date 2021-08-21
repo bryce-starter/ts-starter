@@ -1,5 +1,5 @@
 {
-  "name": "[name]",
+  "name": "ts-stater",
   "version": "0.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -11,21 +11,17 @@
       "import": "./dist/index.mjs"
     }
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
   "funding": "https://github.com/sponsors/guygubaby",
   "author": "guygubaby <guygubaby@gmail.com>",
   "license": "MIT",
   "sideEffects": false,
   "bugs": {
-    "url": "https://github.com/guygubaby/[name]/issues"
+    "url": "https://github.com/guygubaby/ts-stater/issues"
   },
-  "homepage": "https://github.com/guygubaby/[name]#readme",
+  "homepage": "https://github.com/guygubaby/ts-stater#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/guygubaby/[name].git"
+    "url": "git+https://github.com/guygubaby/ts-stater.git"
   },
   "keywords": [],
   "files": [
@@ -33,11 +29,10 @@
   ],
   "scripts": {
     "prepublishOnly": "pnpm build",
-    "dev": "pnpm build --watch",
     "start": "esno src/index.ts",
     "build": "tsup src/index.ts --format cjs,esm --dts --no-splitting",
     "release": "bumpp --commit --push --tag && npm publish",
-    "lint": "eslint '{src,test}/**/*.ts'",
+    "lint": "eslint \"{src,test}/**/*.ts\"",
     "lint:fix": "pnpm lint -- --fix",
     "test": "jest"
   },
@@ -45,6 +40,8 @@
     "@bryce-loskie/eslint-config": "^0.6.0",
     "@types/jest": "^27.0.1",
     "@types/node": "^16.7.1",
+    "eslint": "^7.32.0",
+    "eslint-plugin-jest": "^24.4.0",
     "esno": "^0.9.1",
     "jest": "^27.0.6",
     "rollup": "^2.56.2",
