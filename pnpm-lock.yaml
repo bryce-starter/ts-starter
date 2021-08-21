@@ -8,7 +8,6 @@ specifiers:
   eslint-plugin-jest: ^24.4.0
   esno: ^0.9.1
   jest: ^27.0.6
-  rollup: ^2.56.2
   ts-jest: ^27.0.5
   tsup: ^4.14.0
   typescript: ^4.3.5
@@ -22,7 +21,6 @@ devDependencies:
   eslint-plugin-jest: 24.4.0_eslint@7.32.0+typescript@4.3.5
   esno: 0.9.1
   jest: 27.0.6
-  rollup: 2.56.2
   ts-jest: 27.0.5_92306e36c1a4cf876b1cd4839a977b9c
   tsup: 4.14.0_typescript@4.3.5
   typescript: 4.3.5
