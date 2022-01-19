@@ -35,18 +35,16 @@
     "release": "bumpp --commit --push --tag",
     "lint": "eslint \"{src,test}/**/*.ts\"",
     "lint:fix": "pnpm lint -- --fix",
-    "test": "jest"
+    "test": "vitest"
   },
   "devDependencies": {
-    "@bryce-loskie/eslint-config": "^1.0.4",
-    "@types/jest": "^27.0.2",
-    "@types/node": "^16.11.6",
-    "eslint": "^8.1.0",
-    "eslint-plugin-jest": "^25.2.2",
+    "@bryce-loskie/eslint-config": "^1.0.6",
+    "@types/node": "^16.11.21",
+    "eslint": "^8.7.0",
     "esno": "^0.11.0",
-    "jest": "^27.3.1",
-    "ts-jest": "^27.0.7",
-    "tsup": "^5.5.0",
-    "typescript": "^4.4.4"
+    "tsup": "^5.11.11",
+    "typescript": "^4.5.4",
+    "vite": "^2.7.13",
+    "vitest": "^0.1.21"
   }
 }
