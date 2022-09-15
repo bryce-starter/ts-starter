@@ -1,6 +1,4 @@
-/// <reference types="vitest" />
-
-import { defineConfig } from 'vite'
+import { defineConfig } from 'vitest/config'
 import AutoImport from 'unplugin-auto-import/vite'
 
 export default defineConfig({
