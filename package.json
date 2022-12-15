@@ -1,7 +1,7 @@
 {
   "name": "ts-stater",
   "version": "0.0.0",
-  "packageManager": "pnpm@7.11.0",
+  "packageManager": "pnpm@7.18.2",
   "description": "",
   "author": "guygubaby <guygubaby@gmail.com>",
   "license": "MIT",
@@ -39,7 +39,7 @@
   ],
   "scripts": {
     "prepublishOnly": "pnpm build",
-    "start": "esno src/index.ts",
+    "start": "tsx src/index.ts",
     "dev": "pnpm build -- --watch",
     "build": "tsup",
     "release": "bumpp --commit --push --tag",
@@ -48,13 +48,13 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@bryce-loskie/eslint-config": "^2.0.6",
-    "@types/node": "^18.7.18",
-    "eslint": "^8.23.1",
-    "esno": "^0.16.3",
-    "tsup": "^6.2.3",
-    "typescript": "^4.8.3",
-    "unplugin-auto-import": "^0.11.2",
-    "vitest": "^0.23.2"
+    "@bryce-loskie/eslint-config": "^2.0.9",
+    "@types/node": "^18.11.15",
+    "bumpp": "^8.2.1",
+    "eslint": "^8.29.0",
+    "tsup": "^6.5.0",
+    "tsx": "^3.12.1",
+    "typescript": "^4.9.4",
+    "vitest": "^0.25.8"
   }
 }
