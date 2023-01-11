@@ -10,4 +10,4 @@ npx degit guygubaby/ts-starter [local-folder]
 
 ## License
 
-[MIT](./LICENSE) License © 2022 [guygubaby](https://github.com/guygubaby)
+[MIT](./LICENSE) License © 2023 [guygubaby](https://github.com/guygubaby)
